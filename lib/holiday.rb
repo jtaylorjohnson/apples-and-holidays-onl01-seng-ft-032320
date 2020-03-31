@@ -67,6 +67,7 @@ def all_winter_holiday_supplies(holiday_hash)
        supplies.each do |stuff|
         return stuff
       end
+      end
     end
   end
 end
