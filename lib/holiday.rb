@@ -24,17 +24,16 @@ end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
  
-  # holiday_hash.each do |key, value_hash|
+  holiday_hash[:winter].each do |holiday|
+    holiday << #{supply} 
+    
+  end
+end
+ # holiday_hash.each do |key, value_hash|
   #   if key == "winter" 
   #     value_hash.each do |things|
   #       holiday_hash[:winter][things] << supply
         
-  holiday_hash[:winter].each do |holiday|
-    holiday << #{supply} 
-    
-   
-  end
-end
 
 
 def add_supply_to_memorial_day(holiday_hash, supply)
