@@ -94,8 +94,9 @@ holiday_hash.map do |season, holiday|
     if string == "BBQ"
       array << holiday
       end
-      return array
+      
   end
+  return array
 end
 end
 
