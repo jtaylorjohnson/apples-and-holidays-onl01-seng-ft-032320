@@ -35,7 +35,7 @@ end
  # holiday_hash.each do |key, value_hash|
   #   if key == "winter" 
   #     value_hash.each do |things|
-  #       holiday_hash[:winter][things] << supply
+  #       things << supply
         
 
 
